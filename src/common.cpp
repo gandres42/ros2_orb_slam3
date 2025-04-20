@@ -20,7 +20,7 @@ MonocularMode::MonocularMode() :Node("mono_node_cpp")
     // https://roboticsbackend.com/rclcpp-params-tutorial-get-set-ros2-params-with-cpp/
     
     //* Find path to home directory
-    homeDir = getenv("HOME");
+    homeDir = "/home/gavin";
     // std::cout<<"Home: "<<homeDir<<std::endl;
     
     // std::cout<<"VLSAM NODE STARTED\n\n";
